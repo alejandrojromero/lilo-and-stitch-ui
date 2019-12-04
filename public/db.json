@@ -1,0 +1,143 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "STITCH",
+      "num": "EXPERIMENT: 626",
+      "n": 626,
+      "type": ["STRENGTH", "SPEED"],
+      "typeList": "Strength, Speed",
+      "price": 20,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "REUBEN",
+      "num": "EXPERIMENT: 625",
+      "n": 625,
+      "type": ["STRENGTH", "PSYCHIC"],
+      "typeList": "Strength, Psychic",
+      "price": 21,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "ANGEL",
+      "num": "EXPERIMENT: 624",
+      "n": 624,
+      "type": ["STRENGTH", "PSYCHIC", "SPEED"],
+      "typeList": "Strength, Psychic, Speed",
+      "price": 18,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "RICHTER",
+      "num": "EXPERIMENT: 513",
+      "n": 513,
+      "type": ["STRENGTH"],
+      "typeList": "Strength",
+      "price": 17,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Felix",
+      "num": "EXPERIMENT: 010",
+      "n": 10,
+      "type": ["SPEED", "ELEMENTAL"],
+      "typeList": "Elemental, Speed",
+      "price": 4,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "AMNESIO",
+      "num": "EXPERIMENT: 303",
+      "n": 303,
+      "type": ["SPEED", "PSYCHIC", "FLYING"],
+      "typeList": "Flying, Psychic, Speed",
+      "price": 8,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "SPLODYHEAD",
+      "num": "EXPERIMENT: 619",
+      "n": 619,
+      "type": ["ELEMENTAL", "SPEED"],
+      "typeList": "Elemental, Speed",
+      "price": 11,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "FIBBER",
+      "num": "EXPERIMENT: 032",
+      "n": 32,
+      "type": ["PSYCHIC"],
+      "typeList": "Psychic",
+      "price": 7,
+      "isFreeShipping": false
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "DUPE",
+      "num": "EXPERIMENT: 344",
+      "n": 344,
+      "type": ["STRENGTH", "SPEED", "PSYCHIC"],
+      "typeList": "Strength, Psychic, Speed",
+      "price": 9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 10,
+      "sku": 45640993786986,
+      "title": "SLUGGER",
+      "num": "EXPERIMENT: 608",
+      "n": 608,
+      "type": ["STRENGTH", "SPEED", "FLYING"],
+      "typeList": "Strength, Flying, Speed",
+      "price": 14,
+      "isFreeShipping": true
+    },
+    {
+      "id": 11,
+      "sku": 5670809347332,
+      "title": "SLUSHY",
+      "num": "EXPERIMENT: 523",
+      "n": 523,
+      "type": ["STRENGTH", "SPEED", "ELEMENTAL"],
+      "typeList": "Strength, Elemental,Speed",
+      "price": 13,
+      "isFreeShipping": true
+    },
+    {
+      "id": 12,
+      "sku": 1465068728698,
+      "title": "YANG",
+      "num": "EXPERIMENT: 502",
+      "n": 502,
+      "type": ["STRENGTH", "ELEMENTAL"],
+      "typeList": "Strength, Elemental",
+      "price": 18,
+      "isFreeShipping": true
+    }
+  ]
+}
