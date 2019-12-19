@@ -1,0 +1,56 @@
+README for CS1300 Development
+
+NAME: 
+Lilo and Stitch Team Builder webapp
+
+LINK: 
+https://lilo-and-stitch-team-builder.herokuapp.com/
+
+PURPOSE:
+The initial purpose of this app was to act as a sorting/filtering interface for shopping 
+items, but it then evolved into a sorting interface for a game! 
+The modified purpose of this application is to act as a hi-fidelity prototype for the 
+opening team creation portion of an RPG web game aimed toward children. The prototype's
+main goal is to test the efficiency and implementation of filtering and sorting techniques
+for navigating the list of potential characters that could be added to one's team (which,
+in a final version, would be a large quantity). These filtering/sorting features would 
+heavily streamline this portion of the game in an intuitive way.
+
+GOALS/VALUES OF APP: 
+This app acts as a very basic concept for a turn-based RPG web-based game aimed toward children
+and general fans of the Lilo and Stitch franchise. The app's goal is to make the preliminary
+aspect of choosing one's team at the onset of the game easy, efficient, and intuitive for
+people of all ages. The value of this is that, in using a simple UI for sorting/filtering,
+one can easily see the merits of each potential member of their team and search for specific 
+criteria easily. This can become extremely valuable once the potential data pool grows much
+larger and filtering becomes a lot more crucial to finding the desired results, which in 
+turn saves the user time and lets them get to the core gameplay sooner. 
+
+DESIGN PRINCIPLES: 
+This web application uses many of the general UI/UX interface design principles. The 
+interface is minimal in the sense that it contains enough affordances and signifiers so
+that the user's goals are easily understood. Color contrast (e.g. white letters on a 
+dark blue background) serve to enhance readability and accessibility. Fonts are also 
+contrasted using impact techniques of contrasting sizes/power, which results in a 
+natural hierarchy of information, such as in the character description text fields. The
+use of complimentary and accent colors (i.e. orange and different shades of blue) allow 
+for cohesion in the application that helps tie all of the individual elements together so
+that the user's focus is concentrated on the experience rather than the interface itself.
+
+LOGIC/USER INTERACTION:
+User interaction on this application can take the form of three venues: filtering, sorting,
+and inserting/removing from the team. The filtering and sorting interactions operate in similar
+ways: they are both handled in the Filter.js component ans are represented as separate labels
+with their own selection drop-downs. When an option is clicked, the character fields are sorted 
+according to their categories in db.json, in which I specified objects for each of the characters 
+and defined each of their characteristics. They themselves are displayed and formatted using the 
+Experiments.js component. Filter.js then acts upon them, and also has a nifty div that creates 
+an alert displaying the number of results for the specified sorting criteria! (it is represented
+as a built-in Bootstrap info alert box). Finally, because this app initially began as a sorting
+app for purchasable items, the "team" field acts the same way as a shopping site's "cart" would.
+Each character field has a button (as specified in Experiment.js) that allows for its description
+to be added to the team. As a matter of fact, whenever a member is added, its data is really passed 
+in to the "cartItems" variable in Team.js. When added, the team field displays a list of the added 
+characters, how many were added, and presents a simple removal [X] button to remove the item from 
+the list. The team field also sums the power of all of the current team members to produce a total 
+power variable. 
